@@ -1,0 +1,47 @@
+body {
+  font-family: "Handjet", cursive;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #333;
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+}
+input {
+  padding: 0.6rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.4s;
+}
+
+#reiniciar {
+  background-color: red;
+  margin: 20px;
+}
+#result {
+  margin-top: 20px;
+  font-size: 30px;
+}
+#intentos {
+  margin-top: 20px;
+  font-size: 20px;
+}
